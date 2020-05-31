@@ -26,15 +26,15 @@ namespace ObjectOrientedCSharp
             Console.WriteLine("draw triangle");
         }
     }
-    public class Shape
+    public abstract class Shape
     {
         public int Width {get;set;}
         public int Height {get;set;}
         public Position Position {get;set;}
 
+        //Abstract means that the function is being defined without implemented
+        // The implementing class will need to define the function
         //Virtual means we can change the behavior in a derived class
-        public virtual void Draw(){
-
-        }
+        public abstract void Draw();
     }
 }

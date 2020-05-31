@@ -5,7 +5,7 @@ namespace ObjectOrientedCSharp.PolymorphismOverridingMethods.PolymorphismRefacto
     class Program5
     {
 
-        static void Main(string[] args)
+        static void Main5(string[] args)
         {
             var shapes = new List<Shape>();
             shapes.Add(new Circle());
