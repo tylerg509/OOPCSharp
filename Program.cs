@@ -2,21 +2,18 @@
 
 namespace ObjectOrientedCSharp
 {
-    class Program
+    partial class Program
     {
 
         static void Main(string[] args)
         {
-            var shapes = new List<Shape>();
-            shapes.Add(new Circle());
-            shapes.Add(new Rectangle());
-            shapes.Add(new Triangle());
 
-            var canvas = new Canvas();
-            canvas.DrawShape(shapes);
+            var dbMigrator = new DbMigrator2(new ConsoleLogger());
+            var fileLogger = new DbMigrator2(new FileLogger("C:\\log.txt"));
 
+            dbMigrator.Migrate();
+            fileLogger.Migrate();
         }
 
     }
 }
- 

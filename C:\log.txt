@@ -1,0 +1,12 @@
+INFO:migrating starting: 5/31/2020 4:30:22 PM
+INFO:migrating finished: 5/31/2020 4:30:22 PM
+INFO:migrating starting: 5/31/2020 4:30:26 PM
+INFO:migrating finished: 5/31/2020 4:30:26 PM
+INFO:migrating starting: 5/31/2020 4:30:31 PM
+INFO:migrating finished: 5/31/2020 4:30:31 PM
+INFO:migrating starting: 5/31/2020 4:30:36 PM
+INFO:migrating finished: 5/31/2020 4:30:36 PM
+INFO:migrating starting: 5/31/2020 4:33:33 PM
+INFO:migrating finished: 5/31/2020 4:33:33 PM
+INFO:migrating starting: 5/31/2020 4:40:01 PM
+INFO:migrating finished: 5/31/2020 4:40:01 PM
