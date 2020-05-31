@@ -3,10 +3,10 @@ using System.Collections.Generic;
 
 namespace ObjectOrientedCSharp
 {
-    class Program6
+    class Program8
     {
 
-        static void Main6(string[] args)
+        static void Main8(string[] args)
         {
             UseParams();
             UsePoint();
