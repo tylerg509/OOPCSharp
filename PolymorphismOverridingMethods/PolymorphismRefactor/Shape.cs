@@ -2,7 +2,7 @@ using System;
 
 namespace ObjectOrientedCSharp
 {
-    public class Circle : Shape 
+    public sealed class Circle : Shape 
     {
         public override void Draw()
         {
@@ -13,7 +13,7 @@ namespace ObjectOrientedCSharp
         } 
     }
 
-    public class Rectangle : Shape 
+    public sealed class Rectangle : Shape 
     {
         public override void Draw()
         {
